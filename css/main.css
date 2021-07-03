@@ -1,0 +1,200 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+/***** Grid *****/
+
+.full-width {
+    width:1200px;
+    margin: auto;
+    overflow: auto;
+    }
+.half-width {
+    width: 595px;
+    float: left;
+    }
+.third-width {
+    width: 385px;
+    float: left;
+    }
+
+/***** Header *****/
+
+header h1 {
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header h1 span  {
+    color: #77a466;
+}
+nav{
+    float: right;
+}    
+nav ul li {
+    display: inline-block; 
+    padding-top: 15px;   
+}
+nav ul li a {
+    text-decoration: none;
+    color: #77a466;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 0 0 10px;
+}
+
+/***** Top Section *****/
+
+img {
+    border-top: 5px solid #77a466;
+    border-bottom: 5px solid #77a466;
+}
+
+
+/***** About *****/
+
+#about .full-width {
+    border-bottom: 1px solid #eeeeee;
+}
+#about h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#about p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/***** Bottom *****/
+
+#bottom .full-width {
+    overflow: auto;
+    margin: 10px;
+}
+#menu h3 {
+   text-transform: uppercase; 
+   font-size: 12px;
+   font-weight: bold;
+}
+#menu p {
+    color: #77a466;
+    font-size: 16px;
+}
+#reviews {
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+}
+#reviews h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+#reviews p {
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0 20px 0 20px;
+}
+#locations h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 20px; 
+}
+#locations p {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+/***** footer *****/
+footer .full-width {
+    border-top: 1px solid #eeeeee;
+    text-align: center;
+    padding-top: 25px;
+}
+footer h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+footer span {
+    color: #77a466;
+    font-family: Euphoria Script;
+    font-size: 24px;
+    text-transform: lowercase;
+}
+
+/***** Second Page *****/
+
+#home {
+    color:#77a466;
+    float: right;
+    margin: 35px  30px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+h2 span {
+    color:#77a466;
+    font-family: 'Satisfy';
+    word-spacing: 10px;
+}
+#gallery h2 {
+    color: black;
+    font-family: 'Satisfy'; 
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 10px;
+}
+#gallery h3 span{
+    color:#77a466;
+}
+#images .full-width {
+    float: left;
+    text-align: center;
+}
+#images h3  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align:center;
+    color: black;
+}
+
+#locations h2 {
+    color: black;
+    font-family: 'Satisfy'; 
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 10px;
+}
+#cities .full-width {
+    overflow: auto;
+    margin: 10px;
+
+}
+#cities h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+}
+
+
+
+
+
